@@ -1,13 +1,13 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>DevOps Engineer Portfolio</title>
-     <script src="https://cdn.tailwindcss.com"></script>
-     <script src="https://unpkg.com/phosphor-icons"></script>
-     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-     <style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surya Chidri - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
         body {
             font-family: 'Inter', sans-serif;
             background-color: #10131a;
@@ -193,207 +193,237 @@
             color: #fff;
             text-decoration: underline;
         }
-     </style>
- </head>
- <body class="antialiased">
- 
- <header>
-     <div class="floating-icons">
-         <i class="ph-cloud floating-icon"></i>
-         <i class="ph-git-branch floating-icon"></i>
-         <i class="ph-cube floating-icon"></i>
-         <i class="ph-gear-six floating-icon"></i>
-         <i class="ph-terminal-window floating-icon"></i>
-     </div>
-     <div class="container mx-auto px-6 text-center relative z-10">
-         <img src="https://placehold.co/150x150/6366F1/FFFFFF?text=SC" alt="Profile Picture" class="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-indigo-500 shadow-lg animate__animated animate__pulse animate__infinite">
-         <h1 class="text-5xl font-extrabold mb-4 font-mono text-indigo-400 animate__animated animate__fadeInDown">Surya Chidri</h1>
-         <p class="text-xl font-light mb-8 text-gray-300 animate__animated animate__fadeInUp">DevOps Engineer | Cloud Native Enthusiast | Automation Advocate</p>
-         <a href="#contact" class="btn-primary animate__animated animate__pulse animate__infinite">
-             Let's Connect
-             <i class="ph-arrow-right text-xl ml-2"></i>
-         </a>
-     </div>
- </header>
- 
-     <section id="about" class="py-20 bg-gray-900">
-         <div class="container mx-auto px-6">
-             <h2 class="section-title">About Me</h2>
-             <div class="card max-w-4xl mx-auto text-lg leading-relaxed text-gray-400">
-                 <p class="mb-4">
-                     A DevOps engineer passionate about building and maintaining scalable and resilient systems. I thrive on challenges that involve automating complex infrastructure, optimizing CI/CD pipelines, and fostering a DevOps culture within teams.
-                 </p>
-                 <p>
-                     My expertise includes working with leading cloud platforms, containerization technologies, and infrastructure-as-code tools. I am committed to continuous learning and adopting the latest technologies to deliver efficient and reliable solutions.
-                 </p>
-             </div>
-         </div>
-     </section>
- 
-     <section id="skills" class="py-20 bg-gray-800">
-         <div class="container mx-auto px-6">
-             <h2 class="section-title">Skills</h2>
-             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-                 <div class="card">
-                     <h3 class="text-2xl font-semibold mb-4 text-indigo-300 font-mono">Cloud</h3>
-                     <div class="flex flex-wrap gap-3">
-                         <span class="skill-badge">AWS</span>
-                         <span class="skill-badge">Azure</span>
-                         <span class="skill-badge">GCP</span>
-                         <span class="skill-badge">DigitalOcean</span>
-                     </div>
-                 </div>
-                 <div class="card">
-                     <h3 class="text-2xl font-semibold mb-4 text-indigo-300 font-mono">CI/CD & Automation</h3>
-                     <div class="flex flex-wrap gap-3">
-                         <span class="skill-badge">Jenkins</span>
-                         <span class="skill-badge">GitLab CI</span>
-                         <span class="skill-badge">GitHub Actions</span>
-                         <span class="skill-badge">Ansible</span>
-                         <span class="skill-badge">Terraform</span>
-                         <span class="skill-badge">Helm</span>
-                         <span class="skill-badge">Bash</span>
-                         <span class="skill-badge">Python</span>
-                     </div>
-                 </div>
-                 <div class="card">
-                     <h3 class="text-2xl font-semibold mb-4 text-indigo-300 font-mono">Containers & Orchestration</h3>
-                     <div class="flex flex-wrap gap-3">
-                         <span class="skill-badge">Docker</span>
-                         <span class="skill-badge">Kubernetes</span>
-                         <span class="skill-badge">Docker Compose</span>
-                         <span class="skill-badge">Minikube</span>
-                     </div>
-                 </div>
-                 <div class="card">
-                     <h3 class="text-2xl font-semibold mb-4 text-indigo-300 font-mono">Monitoring & Logging</h3>
-                     <div class="flex flex-wrap gap-3">
-                         <span class="skill-badge">Prometheus</span>
-                         <span class="skill-badge">Grafana</span>
-                         <span class="skill-badge">ELK Stack</span>
-                         <span class="skill-badge">Datadog</span>
-                         <span class="skill-badge">Splunk</span>
-                     </div>
-                 </div>
-                 <div class="card">
-                     <h3 class="text-2xl font-semibold mb-4 text-indigo-300 font-mono">IaC</h3>
-                     <div class="flex flex-wrap gap-3">
-                         <span class="skill-badge">Terraform</span>
-                         <span class="skill-badge">CloudFormation</span>
-                         <span class="skill-badge">ARM Templates</span>
-                     </div>
-                 </div>
-                 <div class="card">
-                     <h3 class="text-2xl font-semibold mb-4 text-indigo-300 font-mono">Other</h3>
-                     <div class="flex flex-wrap gap-3">
-                         <span class="skill-badge">Git</span>
-                         <span class="skill-badge">Linux</span>
-                         <span class="skill-badge">Networking</span>
-                         <span class="skill-badge">Security</span>
-                     </div>
-                 </div>
-             </div>
-         </div>
-     </section>
- 
-     <section id="experience" class="py-20 bg-gray-900">
-         <div class="container mx-auto px-6">
-             <h2 class="section-title">Experience</h2>
-             <div class="max-w-4xl mx-auto space-y-10">
-                 <div class="card">
-                     <h3 class="text-2xl font-semibold text-indigo-300 font-mono">Senior DevOps Engineer</h3>
-                     <p class="text-blue-400 text-lg mb-2">Tech Solutions Inc. | Jan 2022 - Present</p>
-                     <ul class="list-disc list-inside text-gray-400 space-y-2">
-                         <li>Spearheaded the modernization of infrastructure to a cloud-native architecture on AWS, resulting in a 40% improvement in application scalability.</li>
-                         <li>Architected and implemented a fully automated CI/CD pipeline using GitLab CI and Kubernetes, reducing release cycles from weeks to hours.</li>
-                         <li>Utilized Terraform and Ansible to codify and automate the provisioning of all infrastructure components, enhancing consistency and reducing manual errors.</li>
-                         <li>Established comprehensive monitoring and alerting using Prometheus, Grafana, and Alertmanager, improving system observability and incident response times.</li>
-                     </ul>
-                 </div>
-                 <div class="card">
-                     <h3 class="text-2xl font-semibold text-indigo-300 font-mono">DevOps Engineer</h3>
-                     <p class="text-blue-400 text-lg mb-2">Innovate Startups | Mar 2019 - Dec 2021</p>
-                     <ul class="list-disc list-inside text-gray-400 space-y-2">
-                         <li>Managed and optimized Docker and Kubernetes environments for a suite of microservices, ensuring high availability and performance.</li>
-                         <li>Developed and maintained automation scripts in Python and Bash to streamline deployment processes and operational tasks.</li>
-                         <li>Contributed to the design and implementation of robust disaster recovery and backup strategies.</li>
-                         <li>Collaborated closely with development and QA teams to integrate and deploy applications seamlessly.</li>
-                     </ul>
-                 </div>
-             </div>
-         </div>
-     </section>
- 
-     <section id="projects" class="py-20 bg-gray-800">
-         <div class="container mx-auto px-6">
-             <h2 class="section-title">Projects</h2>
-             <div class="max-w-6xl mx-auto space-y-10">
-                 <div class="project-card">
-                     <img src="https://placehold.co/400x250/63B3ED/FFFFFF?text=Cloud+Infra" alt="Cloud Infrastructure Automation Project" class="project-image">
-                     <div class="project-content">
-                         <h3 class="text-2xl font-semibold text-indigo-300 mb-2 font-mono">Automated Multi-Cloud Infrastructure Provisioning</h3>
-                         <p class="text-gray-400 mb-4">
-                             Engineered a solution using Terraform to provision and manage infrastructure across AWS and Azure from a single configuration. This project focused on achieving infrastructure consistency, cost efficiency, and ease of management in a multi-cloud environment.
-                         </p>
-                         <div class="flex flex-wrap gap-2 mb-4">
-                             <span class="skill-badge">Terraform</span>
-                             <span class="skill-badge">AWS</span>
-                             <span class="skill-badge">Azure</span>
-                             <span class="skill-badge">Python</span>
-                         </div>
-                         <a href="#" class="text-blue-400 hover:underline font-medium flex items-center">
-                             <i class="ph-link-simple mr-1"></i> View on GitHub
-                         </a>
-                     </div>
-                 </div>
-                 <div class="project-card">
-                     <img src="https://placehold.co/400x250/9F7AEA/FFFFFF?text=K8s+Orchestration" alt="Kubernetes Orchestration Project" class="project-image">
-                     <div class="project-content">
-                         <h3 class="text-2xl font-semibold text-indigo-300 mb-2 font-mono">Advanced Kubernetes Orchestration with GitOps</h3>
-                         <p class="text-gray-400 mb-4">
-                             Developed a GitOps-based workflow for managing Kubernetes cluster configurations and application deployments using Argo CD. This project emphasized declarative infrastructure management, version control, and automated reconciliation.
-                         </p>
-                         <div class="flex flex-wrap gap-2 mb-4">
-                             <span class="skill-badge">Kubernetes</span>
-                             <span class="skill-badge">Argo CD</span>
-                             <span class="skill-badge">Helm</span>
-                             <span class="skill-badge">Git</span>
-                         </div>
-                         <a href="#" class="text-blue-400 hover:underline font-medium flex items-center">
-                             <i class="ph-link-simple mr-1"></i> Explore the Code
-                         </a>
-                     </div>
-                 </div>
-             </div>
-         </div>
-     </section>
- 
-     <section id="contact" class="py-20 bg-gradient-to-r from-gray-800 to-gray-900 text-white rounded-t-3xl shadow-xl">
-         <div class="container mx-auto px-6 text-center">
-             <h2 class="section-title text-indigo-400">Contact</h2>
-             <p class="text-xl mb-8 text-gray-300">Let's build something amazing together. Reach out for collaborations or opportunities!</p>
-             <div class="flex flex-col md:flex-row justify-center items-center gap-8 text-lg">
-                 <a href="mailto:john.doe@example.com" class="flex items-center space-x-3 hover:text-indigo-300">
-                     <i class="ph-envelope text-xl"></i>
-                     <span>john.doe@example.com</span>
-                 </a>
-                 <a href="https://linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-3 hover:text-indigo-300">
-                     <i class="ph-linkedin-logo text-xl"></i>
-                     <span>LinkedIn</span>
-                 </a>
-                 <a href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-3 hover:text-indigo-300">
-                     <i class="ph-github-logo text-xl"></i>
-                     <span>GitHub</span>
-                 </a>
-             </div>
-         </div>
-     </section>
- 
-     <footer class="bg-gray-900 text-gray-400 py-8 text-center">
-         <div class="container mx-auto px-6">
-             <p class="font-mono text-sm">&copy; 2025 Surya Chidri. Crafted with <span class="text-indigo-400">&lt;code&gt;</span> and <span class="text-red-500">❤️</span></p>
-         </div>
-     </footer>
- 
- </body>
- </html>
+        .profile-pic {
+            border-radius: 9999px;
+            border: 4px solid #818cf8;
+            box-shadow: 0 4px 24px rgba(129, 140, 248, 0.2);
+            width: 140px;
+            height: 140px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+<!-- Profile Section -->
+<section class="flex flex-col items-center justify-center mt-10 mb-12">
+    <img src="profile.png" alt="Surya Chidri" class="profile-pic mb-4" />
+    <h1 class="text-4xl font-bold text-indigo-400 mb-2 font-mono">Surya Chidri</h1>
+    <p class="text-lg text-gray-400 mb-4 font-mono">DevOps Engineer</p>
+    <a href="SuryaChidri-Resume-1.pdf" target="_blank" class="inline-flex items-center px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg font-semibold shadow transition">
+        <i class="ph ph-file-pdf text-2xl mr-2"></i> View Resume
+    </a>
+    <div class="mt-3 flex flex-col md:flex-row gap-2 items-center text-gray-400 text-sm font-mono">
+        <span><i class="ph-phone mr-1"></i>+91 82776 12258</span>
+        <span class="hidden md:inline">|</span>
+        <span><i class="ph-envelope mr-1"></i>suryachidri20@gmail.com</span>
+        <span class="hidden md:inline">|</span>
+        <a href="https://www.linkedin.com/in/surya-chidri" target="_blank" rel="noopener" class="flex items-center hover:text-indigo-300">
+            <i class="ph-linkedin-logo mr-1"></i>LinkedIn
+        </a>
+    </div>
+</section>
+
+<header>
+    <div class="floating-icons">
+        <i class="ph-cloud floating-icon"></i>
+        <i class="ph-git-branch floating-icon"></i>
+        <i class="ph-cube floating-icon"></i>
+        <i class="ph-gear-six floating-icon"></i>
+        <i class="ph-terminal-window floating-icon"></i>
+    </div>
+    <div class="container mx-auto px-6 text-center relative z-10">
+        <img src="https://placehold.co/150x150/6366F1/FFFFFF?text=SC" alt="Profile Picture" class="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-indigo-500 shadow-lg animate__animated animate__pulse animate__infinite">
+        <h1 class="text-5xl font-extrabold mb-4 font-mono text-indigo-400 animate__animated animate__fadeInDown">Surya Chidri</h1>
+        <p class="text-xl font-light mb-8 text-gray-300 animate__animated animate__fadeInUp">DevOps Engineer | Cloud Native Enthusiast | Automation Advocate</p>
+        <a href="#contact" class="btn-primary animate__animated animate__pulse animate__infinite">
+            Let's Connect
+            <i class="ph-arrow-right text-xl ml-2"></i>
+        </a>
+    </div>
+</header>
+
+<section id="about" class="py-20 bg-gray-900">
+    <div class="container mx-auto px-6">
+        <h2 class="section-title">Career Overview</h2>
+        <div class="card max-w-4xl mx-auto text-lg leading-relaxed text-gray-400">
+            <p class="mb-4">
+                DevOps Engineer with 3 years of experience in building scalable cloud infrastructure on AWS and Azure. Implemented Docker, Kubernetes, ECS, and CI/CD automation. Proficient in IaC using CloudFormation, CDK, and Terraform. AWS Certified and focused on driving efficiency and innovation in fast-paced environments.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="education" class="py-20 bg-gray-800">
+    <div class="container mx-auto px-6">
+        <h2 class="section-title">Education</h2>
+        <div class="max-w-3xl mx-auto space-y-6">
+            <div class="card">
+                <h3 class="text-xl font-semibold text-indigo-300 font-mono">B.E. in Electronics and Communication Engineering</h3>
+                <p class="text-blue-400">B.M.S College of Engineering, Bengaluru, Karnataka</p>
+                <p class="text-gray-400 text-sm">August 2018 – July 2022</p>
+            </div>
+            <div class="card">
+                <h3 class="text-xl font-semibold text-indigo-300 font-mono">MPC</h3>
+                <p class="text-blue-400">Gyanavapi Junior College, Hyderabad, Telangana</p>
+                <p class="text-gray-400 text-sm">June 2017 – May 2018</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="experience" class="py-20 bg-gray-900">
+    <div class="container mx-auto px-6">
+        <h2 class="section-title">Experience</h2>
+        <div class="max-w-4xl mx-auto space-y-10">
+            <div class="card">
+                <h3 class="text-2xl font-semibold text-indigo-300 font-mono">DevOps Engineer - Software Engineer 1</h3>
+                <p class="text-blue-400 text-lg mb-2">Mercedes-Benz Research and Development India | Aug 2022 – Present | Hybrid</p>
+                <ul class="list-disc list-inside text-gray-400 space-y-2">
+                    <li>Deployed and maintained highly scalable serverless architecture on AWS (S3, SNS, API Gateway) achieving 99.99% uptime across 3 regions.</li>
+                    <li>Orchestrated IaC using CloudFormation and AWS CDK across three AWS regions, reducing deployment errors by 50%.</li>
+                    <li>Managed 8 Java-based and 3 Python-based Microservices on Kubernetes, deployed across 3 regions for high availability.</li>
+                    <li>Created 40+ build and release pipelines for Kubernetes and ECS deployments, reducing manual intervention and errors.</li>
+                    <li>Migrated domain with zero downtime and implemented seamless redirection for uninterrupted user experience.</li>
+                    <li>Hosted static applications via Route 53, S3, and CloudFront, reducing costs by 40% compared to containerization.</li>
+                    <li>Managed a full stack team (4 component teams across 5 Scrum teams).</li>
+                    <li>Spearheaded containerization initiatives in AWS ECS, establishing automated rollbacks and minimizing downtime.</li>
+                    <li>Optimized cloud resource allocation, reducing cloud expenditure by 15%.</li>
+                    <li>Resolved 10+ cloud security vulnerabilities, enhancing security and compliance.</li>
+                    <li><span class="font-semibold">Tools:</span> AWS ECS, Kubernetes, Docker, CodePipeline, CodeBuild, S3, API Gateway, CloudFront, Route53, CDK, Secret Manager.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3 class="text-2xl font-semibold text-indigo-300 font-mono">Student Trainee</h3>
+                <p class="text-blue-400 text-lg mb-2">Mercedes-Benz Research and Development India | Mar 2022 – July 2022 | On-Site</p>
+                <ul class="list-disc list-inside text-gray-400 space-y-2">
+                    <li>Optimized Mobile Application pipelines using Jenkins Shared Library, enhancing delivery efficiency.</li>
+                    <li>Automated 10+ Android build pipelines for release management using CI tools and scheduled jobs.</li>
+                    <li>Integrated AWS Device Farm for automated testing, reducing manual testing effort by 40%.</li>
+                    <li>Implemented Jenkins for Android build notifications and versioning across 3 build flavors.</li>
+                    <li>Integrated Jacoco TestCases and SonarQube via Jenkins Shared Library across 4+ build pipelines.</li>
+                    <li>Integrated BlackDuck security scanning tools into Jenkins pipeline workflows, automating vulnerability assessments and reducing manual effort by 60%.</li>
+                    <li><span class="font-semibold">Tools:</span> Github Enterprise, Jenkins, Jfrog Artifactory, App Center, HashiCorp Vault, SonarQube.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="py-20 bg-gray-800">
+    <div class="container mx-auto px-6">
+        <h2 class="section-title">Projects</h2>
+        <div class="max-w-6xl mx-auto space-y-10">
+            <div class="project-card">
+                <img src="https://placehold.co/400x250/63B3ED/FFFFFF?text=AMG+Track+Pace" alt="AMG Track Pace" class="project-image">
+                <div class="project-content">
+                    <h3 class="text-2xl font-semibold text-indigo-300 mb-2 font-mono">AMG Track Pace | Android Mobile Application</h3>
+                    <p class="text-gray-400 mb-4">
+                        Conceptualized a platform enabling race car drivers to log telemetry data, analyze lap times, and compare performance metrics, fostering a community of 500+ drivers sharing insights monthly. Bolstered system availability for AMG admin portal by transitioning backend services to ECS Cluster and Kubernetes, supporting 20+ concurrent users globally with zero performance degradation during peak racing events.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="skill-badge">AWS ECS</span>
+                        <span class="skill-badge">Kubernetes</span>
+                        <span class="skill-badge">Android</span>
+                        <span class="skill-badge">CI/CD</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://placehold.co/400x250/9F7AEA/FFFFFF?text=AMG+Portal" alt="AMG Business and Customer Portal" class="project-image">
+                <div class="project-content">
+                    <h3 class="text-2xl font-semibold text-indigo-300 mb-2 font-mono">AMG Business and Customer Portal | Web Application</h3>
+                    <p class="text-gray-400 mb-4">
+                        Enabled worldwide AMG racing events by orchestrating the data flow for a web-based portal; empowered AMG admins to manage over 100+ events. Delivered the front end of the AMG admin portal via static hosting, enabling 50+ concurrent AMG admins to manage global racing events without performance degradation.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="skill-badge">AWS S3</span>
+                        <span class="skill-badge">CloudFront</span>
+                        <span class="skill-badge">Route53</span>
+                        <span class="skill-badge">CI/CD</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="py-20 bg-gray-900">
+    <div class="container mx-auto px-6">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div class="card">
+                <h3 class="text-2xl font-semibold mb-4 text-indigo-300 font-mono">Cloud & IaC</h3>
+                <div class="flex flex-wrap gap-3">
+                    <span class="skill-badge">AWS</span>
+                    <span class="skill-badge">Azure</span>
+                    <span class="skill-badge">CloudFormation</span>
+                    <span class="skill-badge">CDK</span>
+                    <span class="skill-badge">Terraform</span>
+                </div>
+            </div>
+            <div class="card">
+                <h3 class="text-2xl font-semibold mb-4 text-indigo-300 font-mono">Containers & Orchestration</h3>
+                <div class="flex flex-wrap gap-3">
+                    <span class="skill-badge">Docker</span>
+                    <span class="skill-badge">Kubernetes</span>
+                    <span class="skill-badge">ECS</span>
+                </div>
+            </div>
+            <div class="card">
+                <h3 class="text-2xl font-semibold mb-4 text-indigo-300 font-mono">CI/CD & Automation</h3>
+                <div class="flex flex-wrap gap-3">
+                    <span class="skill-badge">Jenkins</span>
+                    <span class="skill-badge">AWS CodePipeline</span>
+                    <span class="skill-badge">AWS CodeBuild</span>
+                    <span class="skill-badge">GitHub Actions</span>
+                    <span class="skill-badge">Gradle</span>
+                </div>
+            </div>
+            <div class="card">
+                <h3 class="text-2xl font-semibold mb-4 text-indigo-300 font-mono">Monitoring & Security</h3>
+                <div class="flex flex-wrap gap-3">
+                    <span class="skill-badge">Datadog</span>
+                    <span class="skill-badge">SonarQube</span>
+                    <span class="skill-badge">BlackDuck</span>
+                </div>
+            </div>
+            <div class="card">
+                <h3 class="text-2xl font-semibold mb-4 text-indigo-300 font-mono">Other Tools</h3>
+                <div class="flex flex-wrap gap-3">
+                    <span class="skill-badge">Linux/UNIX</span>
+                    <span class="skill-badge">Git</span>
+                    <span class="skill-badge">JIRA</span>
+                    <span class="skill-badge">Jfrog Artifactory</span>
+                    <span class="skill-badge">HashiCorp Vault</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="py-20 bg-gradient-to-r from-gray-800 to-gray-900 text-white rounded-t-3xl shadow-xl">
+    <div class="container mx-auto px-6 text-center">
+        <h2 class="section-title text-indigo-400">Contact</h2>
+        <p class="text-xl mb-8 text-gray-300">Let's build something amazing together. Reach out for collaborations or opportunities!</p>
+        <div class="flex flex-col md:flex-row justify-center items-center gap-8 text-lg">
+            <a href="mailto:suryachidri20@gmail.com" class="flex items-center space-x-3 hover:text-indigo-300">
+                <i class="ph-envelope text-xl"></i>
+                <span>suryachidri20@gmail.com</span>
+            </a>
+            <a href="https://www.linkedin.com/in/surya-chidri" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-3 hover:text-indigo-300">
+                <i class="ph-linkedin-logo text-xl"></i>
+                <span>LinkedIn</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-gray-900 text-gray-400 py-8 text-center">
+    <div class="container mx-auto px-6">
+        <p class="font-mono text-sm">&copy; 2025 Surya Chidri. Crafted with <span class="text-indigo-400">&lt;code&gt;</span> and <span class="text-red-500">❤️</span></p>
+    </div>
+</footer>
+
+</body>
+</html>
